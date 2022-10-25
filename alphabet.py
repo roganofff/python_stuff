@@ -9,4 +9,5 @@ while rem > 0:
 
 for i in range(0, len(ternary_num)):
     ternary_num[i] = alphabet[ternary_num[i]]
-print(''.join(reversed(ternary_num)))
+
+print('A' * (5 - len(ternary_num)) + ''.join(reversed(ternary_num)))
